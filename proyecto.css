@@ -4,34 +4,34 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(Your\ inner\ peace\ start\ here\ \(1\).jpg)
+    background-image: url(Beige\ Minimalist\ Interior\ Design\ Presentation.jpg)
     
     
 
 }
 .navbar .container-fluid{
-    background-color: rgb(95, 81, 64);
+    background-color: #EFEDE6;
  
 }
 .navbar .navbar-brand{
-    color: beige;
+    color: #1F2020;
         font-family: "Ms Madi", cursive;
         font-weight: 400;
         font-style: normal;
     font-size: 35px;
 }
 .navbar .navbar-brand:hover{
-    color: #C1D168 ;
+    color: #8FC7B8 ;
 }
 .navbar-nav .nav-link{
-    color: beige;
+    color: #1F2020;
     font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 .navbar-nav .nav-link:hover{
-    color: #C1D168 ;
+    color: #52E1C3 ;
 }
 
 .interiordesign{
@@ -45,22 +45,74 @@ body{
 }
 
 .interiordesign:hover{
-    color: #C1D168;
+    color: #8FC7B8;
 }
 .yipsh{
     text-align: center;
     font-family: "Ms Madi", cursive;
         font-weight: 400;
         font-style: normal;
-        color: beige;
+        color: rgb(0, 0, 0);
 }
-  .container{
-    width: 50%;
+ 
+.collage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 10px;
+    margin-left: 270px;
+}
+
+.image {
+    overflow: hidden;
+  }
+
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ 
+  .order{
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .fixed{
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+  }
+.au-alysson{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+.
+
+.media-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 20%;
       max-width: 480px;
-      background: #7a6f4ea4;
+      background: #dcd9cc8c;
       padding: 10px;
-      border-radius: 8px;
       box-shadow: 0 0 5px rgb(57, 57, 57);
+      margin-top: 0;
+      float: right;
+      margin-right: 100px ;
+      margin-bottom: 50px;
 
   }
   .transition{
@@ -69,23 +121,26 @@ body{
 
   .transition:hover{
     transition: translateY(-10px);
-    box-shadow: 0 1px 8px #C1D168 ;
+    box-shadow: 0 1px 8px #545454 ;
   }
     
       
       .formulario{
         margin-left: 10px;
         margin-right: 10px;
+    
   }
       
   .formulario h2{
       text-align: center;
       margin-bottom: 20px;
       align-items: flex-start;
-      color: beige;
-      font-family: "Ms Madi", cursive;
-      font-weight: 400;
+      color: b;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
       font-style: normal;
+      font-size: 20px;
   }
   .campo{
       margin-bottom: 15px;
@@ -102,20 +157,25 @@ body{
       margin-right: 25px;
       width: 20px;
       height: 20px;
-      color: #C1D168;
+      color: #8FC7B8;
   }
   .campo input{
       flex-grow: 1;
   }
   .campo textarea{
       flex-grow: 1;
-      height: 100px
+      height: 80px
+  }
+  input::placeholder{
+    color: black;
   }
   textarea::placeholder {
+    color: black;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    
   }
   .campo input[type="text"]
   .campo input[type="email"]
@@ -127,18 +187,18 @@ body{
   }
   .campo button{
       color: white;
-      background-color: #8AA45A;
+      background-color: #8FC7B8;
       border: none;
       padding: 10px;
       border-radius: 4px;
-      width: 15%;
+      width: 25%;
       cursor: pointer;
       margin: 0 auto;
       
       
   }
   .campo button:hover{
-      background-color: #59814C;
+      background-color: #428073;
   
   
   }
@@ -170,9 +230,19 @@ body{
     }
 }
 
-.media-icons{
-    margin-left: 15px;
-    color: #C1D168
+.media-icons svg{
+    color: #545454
+}
+
+.create{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
 }
 
 
