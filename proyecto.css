@@ -1,5 +1,5 @@
 body{
-    background-color: #7B6F4B;
+    background-color: #EFEDE6;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ body{
       text-align: center;
       margin-bottom: 20px;
       align-items: flex-start;
-      color: b;
+      color: black;
       font-family: "Playfair Display", serif;
       font-optical-sizing: auto;
       font-weight: <weight>;
